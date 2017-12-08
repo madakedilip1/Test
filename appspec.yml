@@ -18,7 +18,3 @@ permissions:
     mode: 2775
     type:
       - directory
-hooks:
-  AfterInstall:
-  - location: scripts/set-permissions.sh
-    runas: root
